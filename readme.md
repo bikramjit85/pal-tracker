@@ -34,3 +34,8 @@ gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-bikram-pal-arch
 
 5. Cloud Foundry Services & Database Migrations
 cf create-service p.mysql db-small tracker-database
+
+gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
+
+6. Spring JDBC Template
+

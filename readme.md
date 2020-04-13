@@ -11,3 +11,6 @@ https://pal-tracker-bikram-pal-arch1.cfapps.io/
 gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
 
 3. Deployment Pipelines
+gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
+
+4. Spring MVC with REST Endpoints

@@ -38,4 +38,4 @@ cf create-service p.mysql db-small tracker-database
 gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
 
 6. Spring JDBC Template
-
+gradlew cloudNativeDeveloperDatabaseAccess -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/

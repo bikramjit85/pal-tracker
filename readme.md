@@ -43,3 +43,6 @@ gradlew cloudNativeDeveloperDatabaseAccess -PserverUrl=https://pal-tracker-bikra
 7. Health Monitoring
 
 gradlew cloudNativeDeveloperHealthMonitoring -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/actuator
+
+8. Scaling an App on Cloud Foundry
+ gradlew cloudNativeDeveloperScaling -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/

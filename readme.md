@@ -39,3 +39,7 @@ gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://pal-tracker-b
 
 6. Spring JDBC Template - done
 gradlew cloudNativeDeveloperDatabaseAccess -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
+
+7. Health Monitoring
+
+gradlew cloudNativeDeveloperHealthMonitoring -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/actuator

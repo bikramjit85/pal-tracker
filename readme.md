@@ -26,16 +26,16 @@ https://pal-tracker-bikram-pal-arch1.cfapps.io/
 
 gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
 
-3. Deployment Pipelines
+3. Deployment Pipelines --done
 gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
 
-4. Spring MVC with REST Endpoints
+4. Spring MVC with REST Endpoints -- done
 gradlew cloudNativeDeveloperRest -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
 
-5. Cloud Foundry Services & Database Migrations
+5. Cloud Foundry Services & Database Migrations -- done
 cf create-service p.mysql db-small tracker-database
 
 gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
 
-6. Spring JDBC Template
+6. Spring JDBC Template - done
 gradlew cloudNativeDeveloperDatabaseAccess -PserverUrl=https://pal-tracker-bikram-pal-arch1.cfapps.io/
